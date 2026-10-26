@@ -1,0 +1,36 @@
+{
+  "name": "prism-branch-cleaner",
+  "version": "1.0.0",
+  "description": "Zero-dependency CLI that finds merged, squash-merged, stale and remote-deleted git branches and deletes them safely — never touching main, the current branch or release/*.",
+  "bin": {
+    "branchclean": "bin/branchclean.js"
+  },
+  "main": "src/index.js",
+  "files": [
+    "bin",
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "cli",
+    "git",
+    "branches",
+    "cleanup",
+    "git-branch",
+    "squash-merge",
+    "devtools",
+    "prism-protocol"
+  ],
+  "author": "Soumya Bhandare (krishyaa06)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krishyaa06/prism-branch-cleaner.git"
+  },
+  "homepage": "https://github.com/krishyaa06/prism-branch-cleaner#readme",
+  "engines": {
+    "node": ">=18.17"
+  }
+}
